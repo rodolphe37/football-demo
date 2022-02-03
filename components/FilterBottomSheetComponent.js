@@ -7,7 +7,7 @@ import {
 } from "react-native";
 import BottomSheet from "react-native-gesture-bottom-sheet";
 import uuid from "react-native-uuid";
-import { useEffect } from "react/cjs/react.development";
+import { useEffect } from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
 import { currentPositionAtom } from "../states/atoms/currentPositionAtom";
 import { positionFilterStateAtom } from "../states/atoms/positionFilterStateAtom";
